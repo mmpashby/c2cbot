@@ -1,0 +1,13 @@
+# cloudlex-service.yml
+version: "1"
+id: c2cbot
+name: c2cbot
+description: A cli tool to find train times for c2c.
+owner: mmpashby
+tier: critical                  # critical | high | medium | low
+lifecycle: production       # production | beta | experimental | deprecated
+links:
+tags:
+  - tooling
+  - devx
+dependencies: []
